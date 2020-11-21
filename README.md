@@ -27,7 +27,7 @@ This site was built for an independent Friday project at _Epicodus_. It takes an
 * dotenv
 * webpack
 
-#APIs used
+# APIs used
 * Exchange rate API - app.exchangerate-api.com
 
 # Specs
