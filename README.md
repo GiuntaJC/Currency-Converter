@@ -36,10 +36,6 @@ This site was built for an independent Friday project at _Epicodus_. It takes an
 # APIs used
 * Exchange rate API - app.exchangerate-api.com
 
-# Specs
-Test: currency Converter should convert input USD amount to selected currency
-Expect: currency.convertedAmount(10, poundSterling).toEqual(7.53);
-
 # Legal
 
 Copyright 2020 Joseph C Giunta

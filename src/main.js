@@ -15,16 +15,12 @@ $("#currencyForm").submit((event) => {
       $("#errorResponse").text(`Error caught: ${parsedResponse["error-type"]}`);
     } else if(parsedResponse.result == "success"){
       const result = inputtedAmount * parsedResponse["conversion_rates"][targetCurrency];
-      console.log(result);
       $("#response").text(`${inputtedAmount} USD is equal to ${result} ${targetCurrency}`);
     } else {
-      $("#errorResponse").text("API did not respond");
+      $("#errorResponse").text("API returned blank result");
     }
   }, function(err) {
     $("#errorResponse").text(`Error caught: ${err}`);
   });
-
-  
-  
   event.preventDefault();
 });
