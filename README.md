@@ -9,8 +9,7 @@ This site was built for an independent Friday project at _Epicodus_. It takes an
 1. Download or clone this repository
 2. add .env file to root containing API_KEY={Your ExchangeRateApi Api key}
 3. run "npm  install" in cmd in root
-4. run "npm run build" in cmd in root
-5. run "npm run start" in cmd in root
+4. run "npm run start" in cmd in root
 
 # To get an api key
 
