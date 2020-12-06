@@ -4,3 +4,9 @@
 .col-6 {
   text-align: center;
 }
+
+#errorResponse {
+  text-align: center;
+  font-weight: bolder;
+  color: red;
+}

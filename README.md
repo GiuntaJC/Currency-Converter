@@ -10,7 +10,13 @@ This site was built for an independent Friday project at _Epicodus_. It takes an
 2. add .env file to root containing API_KEY={Your ExchangeRateApi Api key}
 3. run "npm  install" in cmd in root
 4. run "npm run build" in cmd in root
-5. run "index.html" file found in /dist
+5. run "npm run start" in cmd in root
+
+# To get an api key
+
+1. Go to www.exchangerate-api.com, enter your email address and click "get free key"
+2. Make an account as prompted
+3. Your api key can then be found at app.exchangerate-api.com/dashboard
 
 # Technologies Used
 * Git
